@@ -1,7 +1,7 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
-TOKEN =8519663573
+TOKEN = os.getenv("TOKEN")
 
 GRUPO_COMERCIO = -1003810499805
 GRUPO_ENTREGADORES = -1003899897131
